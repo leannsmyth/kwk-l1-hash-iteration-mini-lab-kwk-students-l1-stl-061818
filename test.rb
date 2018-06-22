@@ -34,7 +34,7 @@ class Quizzer
   end
   
   def self.start_quiz
-      @lyrics.each do |song_lyric|
+      @@lyrics.each do |song_lyric|
           self.quiz_song_lyric(song_lyric)
       end
       
