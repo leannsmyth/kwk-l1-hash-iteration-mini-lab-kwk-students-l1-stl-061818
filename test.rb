@@ -42,17 +42,17 @@ class Quizzer
   end
   end
   
-  Quizzer.add_song_lyric(Hsm.new("It's time to show how to be a superhero!", "The Boys are Back"))
-  Quizzer.add_song_lyric(Hsm.new("We make each other stong", "We're all in this together"))
-  Quizzer.add_song_lyric(Hsm.new("No more waking up at 6 am", "What time is it?"))
-  Quizzer.add_song_lyric(Hsm.new("Hey batter batter, hey batter batter swing!", "I dont Dance"))
-  Quizzer.add_song_lyric(Hsm.new("Stick to the stuff you know", "Stick to the status Quo'"))
+  Quizzer.add_song_lyric(Hsm.new("It's time to show how to be a superhero!", "the boys are back"))
+  Quizzer.add_song_lyric(Hsm.new("We make each other stong", "we're all in this together"))
+  Quizzer.add_song_lyric(Hsm.new("No more waking up at 6 am", "what time is it?"))
+  Quizzer.add_song_lyric(Hsm.new("Hey batter batter, hey batter batter swing!", "i dont dance"))
+  Quizzer.add_song_lyric(Hsm.new("Stick to the stuff you know", "stick to the status quo'"))
   
-  Quizzer.quiz_song_lyric(Hsm.new("It's time to show how to be a superhero!", "The Boys are Back"))
-  Quizzer.quiz_song_lyric(Hsm.new("We make each other stong", "We're all in this together"))
-  Quizzer.quiz_song_lyric(Hsm.new("No more waking up at 6 am", "What time is it?"))
-  Quizzer.quiz_song_lyric(Hsm.new("Hey batter batter, hey batter batter swing!", "I dont Dance"))
-  Quizzer.quiz_song_lyric(Hsm.new("Stick to the stuff you know", "Stick to the status Quo"))
+  Quizzer.quiz_song_lyric(Hsm.new("It's time to show how to be a superhero!", "the boys are back"))
+  Quizzer.quiz_song_lyric(Hsm.new("We make each other stong", "we're all in this together"))
+  Quizzer.quiz_song_lyric(Hsm.new("No more waking up at 6 am", "what time is it?"))
+  Quizzer.quiz_song_lyric(Hsm.new("Hey batter batter, hey batter batter swing!", "i dont dance"))
+  Quizzer.quiz_song_lyric(Hsm.new("Stick to the stuff you know", "stick to the status quo"))
   
   Quizzer.start_quiz
   
